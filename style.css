@@ -9,6 +9,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .tabs {
@@ -47,11 +48,18 @@ body {
     color: green;
     font-size: 27.5px;
     font-weight: bold;
+    background-color: #55a1c9;
+    border-radius: 10px;
+    opacity: 50%;
+    padding: 20px;
+    width: 100px;
 }
 .money-button{
     width: 100px;
     height: 60px;
     border-radius: 10px;
+    opacity: 75%;
+    color: blue;
 }
 .gamble-button{
     width: 100px;
