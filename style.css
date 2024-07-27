@@ -1,0 +1,70 @@
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.tab{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab.active {
+    background-color: #CCC
+}
+
+.tab:hover {
+    background-color: #AAA;
+}
+
+.game-container{
+    width: 400px;
+    height: 400px;
+    background: url('/images/background.png') repeat 0 0;
+}
+.title{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.money{
+    color: green;
+    font-size: 27.5px;
+    font-weight: bold;
+}
+.money-button{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+.gamble-button{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+.footer-text{
+    color: white;
+}
+.wipe-save-button{
+    color: red;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+
