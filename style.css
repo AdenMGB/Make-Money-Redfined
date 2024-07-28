@@ -10,6 +10,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url('/images/background.png') repeat 0 0;
 }
 
 .tabs {
@@ -19,6 +20,12 @@ body {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid black;
+    opacity: 50%;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    justify-self: center;
 }
 
 .tab{
@@ -37,7 +44,7 @@ body {
 .game-container{
     width: 400px;
     height: 400px;
-    background: url('/images/background.png') repeat 0 0;
+    
 }
 .title{
     color: white;
